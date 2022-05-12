@@ -7,7 +7,7 @@ LABEL "com.github.actions.color"="black"
 
 
 RUN pip install --upgrade pip
-RUN pip install pytest==6.2.5 pytest-cov==2.13.0 pytest-mock==3.6.1
+RUN pip install pytest==6.2.5 pytest-cov==2.12.1 pytest-mock==3.6.1
 
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
